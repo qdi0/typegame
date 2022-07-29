@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.typeMiss
+{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: aquamarine;
+}
+
+.typingAppArea
+{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.texts
+{
+  font-size: 1rem;
+  color: blueviolet;
+}
+
+.typingAppArea span
+{
+  transition: 0.5s all ;
+}
+
+.difficult
+{
+  color: rgb(255, 209, 2);
+  font-size: 2.5rem;
+}
+
+.activeText
+{
+  color: brown;
+  font-size: 5rem;
+  font-weight: bold;
+}
